@@ -1,0 +1,39 @@
+.section-body{
+    max-width: 37rem;
+}
+.formulario-login{
+    max-width: 30.5rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.formulario-logintitulo{
+    font-size: var(--h1);
+    font-family: 'Roboto', sans-serif;
+    color: var(--azul);
+}
+.formulario-logintitulo span {
+    font-size: 3rem;
+}
+.formulario-logincaja-nombres{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formulario-loginlabel {
+    font-size: var(--parrafo);
+    color: var(--azul);
+    margin-top: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.formulario-login__input {
+    max-width: 14.5rem;
+    height: 3.5rem;
+    border: 1px solid #e5e5e5;
+
+}
