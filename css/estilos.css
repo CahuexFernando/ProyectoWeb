@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-     font-family: 'Roboto', sans-serif; 
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 10px;
 }
 
@@ -27,7 +27,7 @@ html {
 }
 
 
-/* Estructura de las secciones*/
+/* Estructura de las secciones */
 
 .background-section {
     width: 100%;
