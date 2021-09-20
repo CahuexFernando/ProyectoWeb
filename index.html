@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/mobile.css">
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
@@ -22,41 +22,84 @@
 
     <div class="background-section">
         <section class="section-body">
-            <form>
-                <h2 class="formulario-logintitulo">
-                    !Hola¡ <br> <span> Ingresa tus datos </span>
+            <form class="formulario-login" id="inputFormulario"> 
+
+                <h2 class="formulario-login__titulo">
+                    ¡Hola! <br> <span>Ingresa tus datos</span>
                 </h2>
 
-            <div class="formulario-logincaja-nombres">
+                <div class="formulario-login__caja-nombres">
+                    
+                    <label for="primerNombre">
+                        Primer nombre
+                        <input 
+                        type="text"  
+                        class="input-nombres" 
+                        name="primerNombre" 
+                        placeholder="Fernando"
+                        id="inputNombre1">
+                    </label>
+                    
+                    <label for="segundoNombre">
+                        Segundo nombre
+                     <input 
+                     type="text" 
+                     class="input-nombres" 
+                     name="segundoNombre"  
+                     placeholder="Jose"
+                     id="inputNombre2">
+                     </label>
+                     
+                </div>
 
-                <label  for="PrimerNombre" 
-                        class="formulario-loginlabel">
-                     Primer Nombre 
-                <input type="text" name="PrimerNombre" class="formulario-logininput"></label>
+                <label for="apellidos">
+                    Apellidos
+                    <input 
+                    type="text"
+                    name="apellidos" 
+                    placeholder="Cahuex Gonzalez"
+                    id="inputApellidos">
+                </label>
 
-                <label  for="SegundoNombre" class="formulario-loginlabel"> Segundo Nombre 
-                <input type="text" name="SegundoNombre" class="formulario-logininput"></label>
+                <label for="correo">
+                    Correo
+                    <input 
+                    type="text"
+                    name="correo" 
+                    placeholder="fjcahuex@gmail.com"
+                    id="inputCorreo">
+                </label>
 
-             </div>
+                <label for="contraseña">
+                    Contraseña
+                    <input 
+                    type="text"
+                    name="contraseña" 
+                    placeholder="fjcahuex0101"
+                    id="inputContrasenna">
+                </label>
 
-                <label  for="Apellido" class="formulario-loginlabel"> Apellido </label>
-                <input type="text" name="Apellido">
+                <label for="confirmarContraseña">
+                    Confirmar Contraseña
+                    <input 
+                    type="text"
+                    name="confirmarContraseña" 
+                    placeholder="fjcahuex0101"
+                    id="inputConfirmarContrasenna">
+                </label>
 
-                <label  for="Correo" class="formulario-loginlabel"> Correo </label>
-                <input type="text" name="Correo">
-
-                <label  for="Contraseña" class="formulario-loginlabel"> Contraseña </label>
-                <input type="text" name="Contraseña">
-
-                <label  for="ConfirmaContraseña" class="formulario-loginlabel"> Confirma Contraseña </label>
-                <input type="text" name="ConfrimaContraseña">
-
-                <button> ¡Listo! </button>
-
+                <button >¡Listo!</button>
+                <div class="formulario-login__CajaRespuesta">
+                    <label for="" class="inputRespuesta" id="inputRespuesta"></label>
+                </div>
+                <div class="formulario-login__CajaRespuesta2">
+                    <label for="" class="inputRespuesta2" id="inputRespuesta2"></label>
+                </div>
             </form>
+            
         </section>
     </div>
-
+    <script src="js/js.js"></script>
 
 </body>
 </html>

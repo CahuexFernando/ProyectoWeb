@@ -1,29 +1,32 @@
-.section-body{
+.section-body {
     max-width: 37rem;
 }
-.formulario-login{
+
+.formulario-login {
     max-width: 30.5rem;
     margin: auto;
-
-    display: flex;
-    flex-direction: column;
 }
-.formulario-logintitulo{
+
+.formulario-login__titulo {
     font-size: var(--h1);
     font-family: 'Roboto', sans-serif;
     color: var(--azul);
 }
-.formulario-logintitulo span {
+
+.formulario-login__titulo span {
     font-size: 3rem;
 }
-.formulario-logincaja-nombres{
+
+.formulario-login__caja-nombres {
     width: 100%;
+    margin-top: 2rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.formulario-loginlabel {
+
+.formulario-login label {
     font-size: var(--parrafo);
     color: var(--azul);
     margin-top: 1.6rem;
@@ -31,9 +34,55 @@
     display: flex;
     flex-direction: column;
 }
-.formulario-login__input {
-    max-width: 14.5rem;
-    height: 3.5rem;
-    border: 1px solid #e5e5e5;
 
+.input-nombres{
+    width: 14.5rem;
+    height: 3.5rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.5rem;
+
+    font-size: var(--parrafo-pequenno);
+    padding-left: 0.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formulario-login input {
+    max-width: 30.3rem;
+    height: 3.5rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.5rem;
+    outline: none;
+
+    font-size: var(--parrafo-pequenno);
+    padding-left: 0.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    width: 11.5rem;
+    height: 5rem;
+    margin-top: 4.2rem;
+    background-color: var(--rosado);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border: none;
+
+    color: var(--blanco);
+    font-size: var(--h2);
+    font-family: 'Roboto', sans-serif;
+}
+.formulario-login__CajaRespuesta label  {
+    margin-top:4rem;
+    color: var(--azul);
+    font-size: var(--parrafo);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+.formulario-login__CajaRespuesta2 label {
+    margin-top: -1rem;
+    color: red;
+    font-size: var(--parrafo);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;   
+ 
 }
